@@ -1,0 +1,133 @@
+.tabla-registro{
+	width: auto;
+	border-spacing: 0px;
+	margin: auto;
+	border: 0px;
+}
+
+.tabla-registro td{
+	padding: 0px;
+	border: 0px;
+	width: atuo;
+	text-align: left;
+	padding-bottom: 2px;
+}
+
+.tabla-registro th{
+	width: auto;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	border: 0px;
+	padding-bottom: 2px;
+}
+
+.tabla-consulta{
+	width: auto;
+	border-radius: 3px 3px 0px 0px;
+	border: 2px solid #666;
+	border-spacing: 0px;
+	margin: auto;
+	
+}
+
+.tabla-consulta td{
+	padding: 0px;
+	border: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.tabla-consulta th{
+	border: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.tabla-consulta tr{
+	border: 0px;
+}
+
+.tabla-consulta tr:nth-child(1){
+
+	background-color: #666;
+	
+}
+
+.tabla-consulta tr:nth-child(2n+3){
+	
+	background-color: #999;
+	
+}
+
+.tabla-consulta tr:nth-child(2n+2){
+	
+	background-color: #CCC;
+	
+}
+
+.tabla-consulta tr:nth-child(1n+2):hover{
+	background-color: rgb(120,120,120);
+}
+
+input{
+	height: 30px;
+	background-color: rgb(240,240,240);
+	border: 1px solid;
+	border-color: rgb(200,200,200);
+	border-radius: 1px;
+	font-size: 1em;
+}
+		
+input:hover{
+	border-color: rgb(180,180,180);
+	box-shadow: inset 0px 0px 4px 2px rgb(220,220,220);
+}
+		
+input:focus{
+	border: 1px solid;
+	border-color: rgba(0,150,200,0.5);
+	box-shadow: inset 0px 0px 4px 2px rgb(220,220,220);
+}
+textarea{
+	min-width: 710px;
+	max-width: 710px;
+	background-color: rgb(240,240,240);
+	border: 1px solid;
+	border-color: rgb(200,200,200);
+	border-radius: 1px;
+	font-size: 0.8em;
+	min-height: 20px;
+}
+		
+textarea:hover{
+	border-color: rgb(180,180,180);
+	box-shadow: inset 0px 0px 4px 2px rgb(220,220,220);
+}
+		
+textarea:focus{
+	border: 1px solid;
+	border-color: rgba(0,150,200,0.5);
+	box-shadow: inset 0px 0px 4px 2px rgb(220,220,220);
+}
+
+button{
+	height: 30px;
+	background-color: rgba(0,140,80,0.4);
+	border: 1px solid;
+	border-color: rgb(200,200,200);
+	border-radius: 3px;
+	font-size: 1em;
+}
+
+button:hover{
+	border-color: rgb(180,180,180);
+	box-shadow: inset 0px 0px 4px 2px rgba(120,120,120,0.18);
+}
+
+button:active{
+	border: 1px solid;
+	border-color: rgba(0,150,200,0.5);
+	box-shadow: inset 0px 0px 4px 2px rgba(120,120,120,0.2);
+}

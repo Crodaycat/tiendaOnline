@@ -1,0 +1,9 @@
+div.CBar{
+	margin: 5px auto;
+	padding: 2px;
+	width: 994px;
+	height: 20px;
+	background-color: rgb(220,220,220);
+	border: 1px solid rgb(180,180,180);
+	border-radius: 2px;
+}
